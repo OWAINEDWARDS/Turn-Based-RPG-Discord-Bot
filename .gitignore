@@ -1,6 +1,9 @@
 # Compiled class file
 *.class
 
+# Config Files
+*.json
+
 # Log file
 *.log
 
