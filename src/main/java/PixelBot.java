@@ -68,10 +68,6 @@ public class PixelBot {
             Die6 d6 = new Die6();
 
 
-
-
-
-
         } catch (LoginException e) {
             throw new RuntimeException(e);
         } catch (FileNotFoundException e) {

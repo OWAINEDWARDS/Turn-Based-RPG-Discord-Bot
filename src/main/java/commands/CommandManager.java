@@ -1,5 +1,10 @@
 package commands;
 
+import items.EdibleItem;
+import items.Item;
+import items.ItemPools;
+import items.SwattedSoup;
+import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.guild.GuildJoinEvent;
 import net.dv8tion.jda.api.events.guild.GuildReadyEvent;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
@@ -8,8 +13,10 @@ import net.dv8tion.jda.api.interactions.commands.build.CommandData;
 import net.dv8tion.jda.api.interactions.commands.build.Commands;
 import org.jetbrains.annotations.NotNull;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 public class CommandManager extends ListenerAdapter {
 
@@ -24,7 +31,7 @@ public class CommandManager extends ListenerAdapter {
         }
         else if(command.equals("rummage")){
             String userTag = event.getUser().getAsTag();
-            event.reply("You find an old rusty pipe").queue(); //mstq
+            runRummageCommand(event);
         }
     }
 
@@ -54,7 +61,20 @@ public class CommandManager extends ListenerAdapter {
 //        can check for specific guild
     }
 
-    void runRummageCommand(){
+    private void runRummageCommand(SlashCommandInteractionEvent event){
+
+        //chances based on pocket dice. Each player has a pocket dice that starts low and can be upgraded. starts will low chance. a D6 with 3 1s and 2, 3 ,6 can upgrade to d6 with etc... then d20 with.....
+
+        //rummage roll anything above a 1. start dice begins at D6 1,1,1,1,1,2
+        ItemPools itemPoolsManager = new ItemPools();
+        int selectedItemIndex =  new Random().nextInt(itemPoolsManager.getEdibleItemMushroomForestPool().size() - 0 ) + 0; //21 exclusive so 1 to 20
+        EdibleItem selectedEdible = itemPoolsManager.getEdibleItemMushroomForestPool().get(selectedItemIndex);
+        EmbedBuilder embedItem = selectedEdible.getEmbedItem();
+        //set up image
+        File file = selectedEdible.getItemImageFile();
+        event.replyEmbeds(embedItem.build()).addFile(file, selectedEdible.getFileAttachmentString()).queue();
+
+
 
     }
 }
