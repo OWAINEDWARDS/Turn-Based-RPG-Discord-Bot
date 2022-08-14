@@ -16,7 +16,7 @@ public class SwattedSoup extends EdibleItem {
         embedItem.setDescription("An 'edible' looking soup with lingering buzz , ew. Do I see flies in there?");
         embedItem.setColor(Color.orange);
         embedItem.addField("Hp gain", "10%", true);
-        embedItem.addField("Dice Type", "D6", true);
+        embedItem.addField("Dice Type", "D6", true); //doesn'ty use health dice. health dice are for attacking. 
         embedItem.addField("Dice Ability", "None", true);
         embedItem.addField("Item Type", "edible", true);
 
