@@ -1,9 +1,7 @@
 package commands;
 
 import items.EdibleItem;
-import items.Item;
 import items.ItemPools;
-import items.SwattedSoup;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.guild.GuildJoinEvent;
 import net.dv8tion.jda.api.events.guild.GuildReadyEvent;
