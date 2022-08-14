@@ -14,7 +14,7 @@ public class HotDog extends EdibleItem {
     @Override
     protected void makeEmbedItem() {
         embedItem.setTitle("Hot Dog");
-        embedItem.setDescription("This has no culture");
+        embedItem.setDescription("This food has little culture");
         embedItem.setColor(Color.orange);
         embedItem.addField("Hp gain", "2.5%", true);
         embedItem.addField("Dice Type", "D6", true); //neg dice type
