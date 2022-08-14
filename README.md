@@ -1,7 +1,19 @@
 # Turn-Based-RPG-Discord-Bot
 A turn-based RPG playable through a discord bot - "PixelBot".
 
-## A look at the food items so far
+## Goal
+ 
+to be written
+
+## Planned Features
+
+tbw
+
+## Synopsis
+
+tbw
+
+### A look at the food items so far
 
 | Item Name:  | Swatted Soup | Hot Dog | Gregors Sosij Roll | 
 | ------------- | ------------- | ------------- | ------------- |
@@ -10,14 +22,14 @@ A turn-based RPG playable through a discord bot - "PixelBot".
 | Die Type:  | D6| D6 | WIP |
 | health gain:  | 10% | 2.5% | WIP |
 
-## A look at the monsters so far.
+### A look at the monsters so far
 
 | Monster Name:  | Chielle | 
 | ------------- | ------------- |
 | Image:  | ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/monsterResources/chielle.png) |
 | Random Remarks:  | First Monster drawn. | 
 
-## The Dice.
+### The Dice
 
 
 
