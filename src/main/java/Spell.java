@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class Spell {
+public class Spell {//each spell uses specific dice.
 }

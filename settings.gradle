@@ -1,0 +1,4 @@
+rootProject.name = 'Turn-Based-RPG-Discord-Bot'
+include 'src:main:commands'
+findProject(':src:main:commands')?.name = 'commands'
+

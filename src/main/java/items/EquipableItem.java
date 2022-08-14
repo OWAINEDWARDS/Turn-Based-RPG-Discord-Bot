@@ -1,2 +1,4 @@
-package items;public class EquipableItem {
+package items;
+
+public class EquipableItem {
 }
