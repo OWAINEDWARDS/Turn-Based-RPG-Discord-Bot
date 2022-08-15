@@ -20,7 +20,7 @@ to be written
 - [ ] Can rummage for new items in a current location arrived at by using the previous command by using "/rummage". 
 
 - [ ] Can begin a run. which gets harder, can end a run.
-- [ ] Lose rewardsif die before you choose to end a run. By continuing by using "/forward" you risk losing all loot gained so far.
+- [ ] Lose rewards if the player dies before you choose to end a run. By continuing (using "/forward"), you risk losing all loot gained so far.
 
 
 ## Ambitious Features
@@ -89,12 +89,12 @@ tbw
 
 ### All Slash Commands
 
-/Rummage - can only rummage once in a rummage location. can only rummage 5 times in that location.
-/Inventory
-/Forward
-/Backward 
-/endRun
-/beginRun
+- /Rummage - can only rummage once in a rummage location. can only rummage 5 times in that location.
+- /Inventory
+- /Forward
+- /Backward 
+- /endRun
+- /beginRun
 
 
 
