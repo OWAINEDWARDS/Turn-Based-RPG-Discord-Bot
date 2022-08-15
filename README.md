@@ -7,26 +7,29 @@ to be written
 
 ## Planned Features
 
-- [ ] turn based battle using dice. Each number on the dice corresponds to the damage. (Rolling a 2 is 2 damange).
-- [ ] several dice abilites.
-- [ ] small variety Of monsters with turn based "dice battles." Each monster having different "dice abilities."
-- [ ] several dice types.
-- [ ] inventory to collect items. such as food and artificats. - no weapons your dice is the weapon. thus:
-- [ ] can get better dice. start from a dice which has faces 1,1,1,1,1,2 to dices that have faces 1,6,6,6,6,6. with multiple dice slots.
-- [ ] rolling a 1 is a fail and will result in your turn being forfeited. 
-- [ ] you can roll your dice as many times as you like but you risk rolling a 1 and giving up any damage you have stacked by rolling each dice you have. 
-- [ ] food can be eaten during combat to restore health.
-- [ ] progress through a pseudo-ranomly generated "dungeon" with "/walk" or "/continue story" slash command.
-- [ ] can rummage for new items in a current location arrived at by using the previous command by using "/rummage". 
--
+- [ ] Turn based battle using dice. Each number on the dice corresponds to the damage. (Rolling a 2 is 2 damange).
+- [ ] Several dice abilites.
+- [ ] Small variety Of monsters with turn based "dice battles." Each monster having different "dice abilities."
+- [ ] Several dice types.
+- [ ] Inventory to collect items. such as food and artificats. - no weapons your dice is the weapon. thus:
+- [ ] Can get better dice. start from a dice which has faces 1,1,1,1,1,2 to dices that have faces 1,6,6,6,6,6. with multiple dice slots.
+- [ ] Rolling a 1 is a fail and will result in your turn being forfeited. 
+- [ ] You can roll your dice as many times as you like but you risk rolling a 1 and giving up any damage you have stacked by rolling each dice you have. 
+- [ ] Food can be eaten during combat to restore health.
+- [ ] Progress through a pseudo-ranomly generated "dungeon" with "/walk" or "/continue story" slash command.
+- [ ] Can rummage for new items in a current location arrived at by using the previous command by using "/rummage". 
+
+- [ ] Can begin a run. which gets harder, can end a run.
+- [ ] Lose rewardsif die before you choose to end a run. By continuing by using "/forward" you risk losing all loot gained so far.
+
 
 ## Ambitious Features
 
 - [ ] Boss battles
-- [ ] monster capture as pets. (Multi Party battle)
-- [ ] artifacts
-- [ ] monsters drop gold / items - add to inventory
-- [ ] shop for coins.
+- [ ] Monster capture as pets. (Multi Party battle)
+- [ ] Artifacts
+- [ ] Monsters drop gold / items - add to inventory
+- [ ] Shop for coins.
 
 
 
@@ -79,7 +82,19 @@ tbw
 | Description:  |  WIP |
 | Dice Type :  | D6 | 
 
+## "Exploring" the world
+
+3 element stack idea:
+
+
 ### All Slash Commands
+
+/Rummage - can only rummage once in a rummage location. can only rummage 5 times in that location.
+/Inventory
+/Forward
+/Backward 
+/endRun
+/beginRun
 
 
 
