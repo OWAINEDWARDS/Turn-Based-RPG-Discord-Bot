@@ -45,12 +45,12 @@ tbw
 
 ### A look at the food items so far
 
-| Item Name:  | Swatted Soup | Hot Dog | Gregors Sosij Roll | 
-| ------------- | ------------- | ------------- | ------------- |
-| Image:  | ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/edibleItemResources/swattedSoup.png) | ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/edibleItemResources/hotDog.png)| ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/edibleItemResources/GregorsSosijRoll.png) |
-| Description:  | An 'edible' looking soup with lingering buzz , ew. Do I see flies in there?  | This food has little culture | WIP | 
-| Die Type:  | D6| D6 | WIP |
-| health gain:  | 10% | 2.5% | WIP |
+| Item Name:  | Swatted Soup | Hot Dog | Gregors Sosij Roll | Mango Mochi | Beef Broth With Too Much Pak Choi |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Image:  | ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/edibleItemResources/swattedSoup.png) | ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/edibleItemResources/hotDog.png)| ![food: swatted soup](https://github.com/OWAINEDWARDS/Turn-Based-RPG-Discord-Bot/blob/master/src/main/resources/edibleItemResources/GregorsSosijRoll.png) | WIP | WIP |
+| Description:  | An 'edible' looking soup with lingering buzz , ew. Do I see flies in there?  | This food has little culture | WIP | Yummy, Gooey, Perfect.| Warms Your Tummy good.|
+| Die Type:  | D6| D6 | WIP | WIP | WIP |
+| health gain:  | 10% | 2.5% | 100% | WIP | 50% |
 
 ### A look at the monsters so far
 

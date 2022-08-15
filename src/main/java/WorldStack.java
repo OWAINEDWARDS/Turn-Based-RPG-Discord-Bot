@@ -40,7 +40,7 @@ public class WorldStack {
         }else{
             stack[2] = enemySelectionPool.get(0);
         }
-        
+
 
     }
     private void setEnemySelectionPool(){
